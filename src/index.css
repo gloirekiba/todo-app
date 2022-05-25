@@ -1,0 +1,29 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: calc(1rem * 1.5);
+}
+
+body {
+  padding-top: 1em;
+  color: #333;
+  text-align: center;
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button,
+label {
+  cursor: pointer;
+}
+
+button:not(button + button) {
+  margin-right: 0.4em;
+}
+
+input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
