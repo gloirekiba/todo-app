@@ -23,6 +23,10 @@ button:not(button + button) {
   margin-right: 0.4em;
 }
 
+input {
+  max-width: 100%;
+}
+
 input[type="checkbox"]:checked + span {
   text-decoration: line-through;
   opacity: 0.4;
