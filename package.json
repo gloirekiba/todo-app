@@ -1,5 +1,6 @@
 {
-  "name": "Todo App",
+  "homepage": "https://gloirekiba.github.io/todo-app",
+  "name": "todo-app",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -30,5 +31,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
