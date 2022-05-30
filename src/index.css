@@ -32,8 +32,17 @@ input[type="checkbox"]:checked + span {
   opacity: 0.4;
 }
 
+form {
+  margin-top: 1em;
+}
+
 .container {
   width: 95%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.todo {
+  padding: 0.4em 0;
+  border-bottom: 1px solid rgba(68, 68, 68, 0.527);
 }
