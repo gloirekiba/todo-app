@@ -4,7 +4,7 @@ const Todo = ({ todo, toggleTodo }) => {
   }
 
   return (
-    <div>
+    <div className="todo">
       <label>
         <input onChange={handleToggle} type="checkbox" checked={todo.complete} />
         <span>{todo.name}</span>
