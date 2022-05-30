@@ -31,3 +31,9 @@ input[type="checkbox"]:checked + span {
   text-decoration: line-through;
   opacity: 0.4;
 }
+
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
