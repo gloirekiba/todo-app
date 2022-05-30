@@ -39,7 +39,7 @@ const App = () => {
   }, [todos]);
 
   return (
-    <>
+    <div className="container">
       <TodoList todos={todos} toggleTodo={toggleTodo} />
       <form onSubmit={addTodo}>
         <input ref={todoNameRef} type="text" autoFocus />
@@ -49,7 +49,7 @@ const App = () => {
         </div>
       </form>
       <div>{todos.filter((todo) => !todo.complete).length} todo(s) left</div>
-    </>
+    </div>
   );
 };
 
