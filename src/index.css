@@ -17,6 +17,7 @@ body {
 button,
 label {
   cursor: pointer;
+  word-break: break-all;
 }
 
 button:not(button + button) {
