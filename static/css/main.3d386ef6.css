@@ -1,0 +1,2 @@
+*,:after,:before{box-sizing:border-box;font-size:1.5rem;margin:0;padding:0}body{color:#333;font-family:Poppins,Segoe UI,Tahoma,Geneva,Verdana,sans-serif;padding-top:1em;text-align:center}button,label{cursor:pointer;word-break:break-all}button:not(button+button){margin-right:.4em}input{max-width:100%}input[type=checkbox]:checked+span{opacity:.4;text-decoration:line-through}form{margin-top:1em}.container{margin:0 auto;max-width:1200px;width:95%}.todo{border-bottom:1px solid rgba(68,68,68,.527);padding:.4em 0}
+/*# sourceMappingURL=main.3d386ef6.css.map*/
